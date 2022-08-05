@@ -1,0 +1,85 @@
+header, p, h1, h2, h3, h4, h5, h6, li, figcaption {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    z-index: 1;
+    height: 69px;
+    font-size: 22px;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin: 10px 10px;
+}
+
+header ul {
+    text-decoration: underline;
+    list-style: none;
+    display: flex;
+    grid-gap: 15px;
+}
+
+.background {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    margin: 50px 350px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+}
+
+.background img {
+    height: 700px;
+    width: 1882px;
+    object-fit: cover;
+}
+
+.background h2 {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding-bottom: 15px;
+}
+
+.background h4 {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding-top: 0;
+}
+
+.tea-of-the-month {
+    display: flex;
+    width: 100px;
+    height: 700px;
+    margin: 1000px;
+}
